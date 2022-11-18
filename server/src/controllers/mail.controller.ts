@@ -1,49 +1,35 @@
 import { Request, Response } from "express";
-import nodemailer, {SendMailOptions} from "nodemailer";
+import nodemailer, { SendMailOptions } from "nodemailer";
 import { host, port, user, pass } from "@src/config/auth.json";
 
 class mailController {
-  public async sendEmail(req: Request, res: Response): Promise<Response> {
-    try {
-      const { text } = req.body;
+  public async mail(req: Request, res: Response) {
+    const { text } = req.body;
 
-      if (!text)
-        res.send({
-          error: "Invalid subject",
-        });
+    const mailOptions: SendMailOptions = {
+      from: "bunterapp@outlook.com",
+      to: "bunterapp@yahoo.com",
+      subject: "Sugestão Bunter",
+      html: `<p>${text}</p>`,
+    };
 
-      const transporter = nodemailer.createTransport({
-        host,
-        port,
-        auth: {
-          user,
-          pass,
-        },
-        tls: {
-          rejectUnauthorized: false,
-        },
-        logger: true
-      });
+    const transporter = nodemailer.createTransport({
+      service: "outlook",
+      auth: {
+        user: "bunterapp@outlook.com",
+        pass: "Bunter7711",
+      },
+      logger: true,
+    });
 
-      const mailOptions:SendMailOptions = {
-        from: "bunterapp@yahoo.com",
-        to: "bunterapp@yahoo.com",
-        subject: "Sugestão Bunter",
-        text, 
+    transporter.sendMail(mailOptions, (err, info) => {
+      if (err) {
+        return res.send(err);
+      }
+      res.send(info);
+    });
 
-      };
-
-      transporter.sendMail(mailOptions, (err) => {
-        if (err) {
-          console.log(err);
-        }
-      });
-
-      return res.status(200).send({ok:"ok"});
-    } catch (err) {
-      console.log(err);
-      return res.status(400)
-    }
+    res.status(200).send({ ok: "ok" });
   }
 }
 
