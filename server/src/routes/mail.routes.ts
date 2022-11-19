@@ -4,7 +4,7 @@ import { Router } from "express";
 const mailRouter = Router()
 
 
-mailRouter.post('/send' , mailController.sendEmail)
+mailRouter.post('/send' , mailController.mail)
 
 
 export default mailRouter
