@@ -13,4 +13,4 @@ export function Content() {
     </article>
     </div>
   )
-}
+} 
