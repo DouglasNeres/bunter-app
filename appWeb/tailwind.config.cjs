@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      colors: {
+        purplePrimary: '#C67EFF',
+        purpleSecond: '#7743DB',
+        purpleThird: '#5C24C8',
+        purpleFourth: '#58158D',
+        purpleFifth: '#310852',
+      }
+
+    },
   },
   plugins: [],
 }

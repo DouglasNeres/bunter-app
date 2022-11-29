@@ -1,0 +1,23 @@
+import { PartsBlocks } from "../components";
+
+export function Introduction() {
+  return (
+    <div className='flex justify-center items-center flex-col'>
+      <h1 className='font-semibold text-5xl break-words leading-tight'>Muito mais que um <strong className='text-purpleSecond'>projeto</strong>,
+        <p> a Iniciativa de <strong className='text-purpleSecond'>Mudança!</strong></p></h1>
+
+      <div className='flex justify-around pt-12'>
+        <p className='text-left w-2/6'>Projetar o futuro não é simples, porém jamais será
+          impossível, cada investimento e esforço no que
+          vale a pena, sempre será bem recompensado.</p>
+
+        <p className='text-left break-words'>Assim desenvolvendo tamanha aplicação em <p>prol
+          do avançar.</p>
+        </p>
+      </div>
+
+    <PartsBlocks />
+
+    </div>
+  )
+}
