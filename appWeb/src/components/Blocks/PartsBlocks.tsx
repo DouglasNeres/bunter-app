@@ -4,7 +4,7 @@ import SecurityIcon from '../../assets/security-icon.svg'
 
 export function PartsBlocks(){
   return(
-    <div className="flex pt-20">
+    <div className="flex pt-24">
         <div className='flex flex-col border-r-2 px-10'>
           <div className='flex items-center gap-5'>
             <img className='h-16' src={FastIcon} alt="Ícone de Rapidez" />
