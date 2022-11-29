@@ -1,11 +1,10 @@
-import { BackGrounds, NavBar, Poligonos } from "./components";
+import { Introduction, Landing } from "./pages";
 
 export default function App() {
   return (
       <>
-        <NavBar />
-        <Poligonos />
-        <BackGrounds />
+        <Landing />
+        <Introduction />
       </>
   )
 }

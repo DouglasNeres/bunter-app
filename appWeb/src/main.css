@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #1E1E1E;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   overflow-x: hidden;
 }
 
-.gradient{
+.gradient {
   position: absolute;
   width: 1860.38px;
   height: 2773.81px;
@@ -20,17 +20,31 @@ body{
   transform: rotate(-41deg);
 }
 
-.lightBg{
-  position: absolute;
+.center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.lightBg {
   width: 1380px;
   height: 550px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 150px auto auto auto;
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(2px);
   border-radius: 10px;
 
+}
+
+.circle {
+  position: absolute;
+  width: 695px;
+  height: 682px;
+  left: -320px;
+  top: 1000px;
+  z-index: -1;
+  border-radius: 100%;
+  background: rgb(88, 21, 141);
+  background: linear-gradient(90deg, rgba(119, 67, 219, 1), 44%, rgba(88, 21, 141, 1) 0%, rgba(148, 12, 213, 1) 100%);
 }
