@@ -6,6 +6,10 @@ module.exports = {
   theme: {
     extend: {
 
+      height: {
+        560: '33rem'
+      },
+      
       colors: {
         purplePrimary: '#C67EFF',
         purpleSecond: '#7743DB',

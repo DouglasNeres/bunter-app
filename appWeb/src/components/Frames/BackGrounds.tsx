@@ -9,6 +9,7 @@ export function BackGrounds() {
           <Content />
         </div>
         <div className="circle"></div>
+        <div className="circleBlur"></div>
       </div>
     </>
   )
