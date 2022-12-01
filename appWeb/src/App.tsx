@@ -1,4 +1,4 @@
-import { Introduction, Landing, Launch, MeetUs, Screens, Footer} from "./pages";
+import { Introduction, Landing, Launch, MeetUs, Screens, Faqs ,Footer} from "./pages";
 
 export default function App() {
   return (
@@ -8,6 +8,7 @@ export default function App() {
         <Screens />
         <Launch />
         <MeetUs />
+        <Faqs />
         <Footer />
       </>
   )
