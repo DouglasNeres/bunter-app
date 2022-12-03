@@ -87,7 +87,7 @@ export function Screens() {
         <p>Telas</p>
         <h1 className='text-5xl pt-8 w-96 leading-normal font-bold text-purplePrimary'>{carrouselData[carrouselIndex].title}</h1>
         <p className='w-96 font-medium leading-snug pt-3'>{carrouselData[carrouselIndex].description}</p>
-        <button className="bg-purpleSecond w-52 h-16 mt-16 rounded-lg hover:bg-purple-300 hover:text-purpleThird transition-all">{carrouselData[carrouselIndex].linkTitle}</button>
+        <a href='https://www.figma.com/file/eAwsjgrNO2EJWKuAGVII33/Projeto-Dev-App-BUNTER?node-id=0%3A1&t=axIVFKb5uSNNzssr-0' target="_blank" rel="noopener noreferrer" className="bg-purpleSecond w-52 h-16 mt-16 rounded-lg hover:bg-purple-300 hover:text-purpleThird transition-all flex justify-center items-center">{carrouselData[carrouselIndex].linkTitle}</a>
       </div>
     </div>
   );

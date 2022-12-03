@@ -2,7 +2,7 @@ import { LogoNav } from '../NavBar'
 
 import EmailIcon from '../../assets/email-icon.svg'
 import LinkedinIcon from '../../assets/linkedin-icon.svg'
-import GithubIcon from '../../assets/email-icon.svg'
+import GithubIcon from '../../assets/github-icon.svg'
 
 export function About(){
   return(
@@ -10,9 +10,9 @@ export function About(){
         <LogoNav/>
         <p className="break-words mt-4 text-lg text-left">Cidade de Crateús-CE, no <p>Brasil - EEEP Manoel Mano</p></p>
         <div className="flex gap-8 mt-10">
-          <a href=""><img className="h-9 w-9" src={EmailIcon} alt="Ícone de Email" /></a>
-          <a href=""><img className="h-9 w-9" src={LinkedinIcon} alt="Ícone do LinkedIn" /></a>
-          <a href=""><img className="h-9 w-9" src={GithubIcon} alt="Ícone do GitHub" /></a>
+          <a href="mailto:bunter@yahoo.com" target="_blank" rel="noopener noreferrer"><img className="h-9 w-9" src={EmailIcon} alt="Ícone de Email" /></a>
+          <a href="https://abre.bio/NetWork-Bunter" target="_blank" rel="noopener noreferrer"><img className="h-9 w-9" src={LinkedinIcon} alt="Ícone do LinkedIn" /></a>
+          <a href="https://abre.bio/NetWork-Bunter" target="_blank" rel="noopener noreferrer"><img className="h-9 w-9" src={GithubIcon} alt="Ícone do GitHub" /></a>
         </div>
       </div>
 
