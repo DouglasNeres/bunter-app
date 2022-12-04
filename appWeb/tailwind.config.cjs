@@ -7,7 +7,7 @@ module.exports = {
     extend: {
 
       height: {
-        560: '33rem'
+        560: '28rem'
       },
       
       colors: {
@@ -16,6 +16,7 @@ module.exports = {
         purpleThird: '#5C24C8',
         purpleFourth: '#58158D',
         purpleFifth: '#310852',
+        purpleSixth: '#682f8d',
       }
 
     },

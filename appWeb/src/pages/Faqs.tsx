@@ -32,7 +32,7 @@ export function Faqs() {
   }
 
   return (
-    <div className="flex mt-28">
+    <div id="faqs" className="flex pt-40">
       <aside className="pl-44 flex flex-col gap-10">
         <h1 className="break-words font-semibold text-5xl leading-normal">Perguntas <p className="text-purplePrimary">mais Frequentes</p></h1>
         <p className="break-words">Sabemos que você pode ter algumas dúvidas, <p>então consulte ao lado para tirar algumas.</p></p>

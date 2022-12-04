@@ -72,18 +72,18 @@ export function Screens() {
   ];
 
   return (
-    <div className='flex'>
-      <div className="pt-48 pl-64">
-        <div className='flex justify-center items-center flex-col pl-32'>
+    <div id='screens' className='flex justify-center pt-32'>
+      <div className="">
+        <div className='flex justify-center items-center flex-col'>
           <img className="h-560 hover:relative bottom-2 shadow-md shadow-white rounded-3xl" src={carrouselData[carrouselIndex].image} alt="" />
-          <div className="mt-7 flex items-center gap-8 pt-8 border-t-8 rounded-sm">
-            <button className="border-purpleThird text-purplePrimary flex justify-center items-center border-4 w-16 h-16 text-6xl rounded-2xl disabled:text-gray-100 disabled:border-gray-100" disabled={carrouselIndex <= 0} onClick={handlePrevious}>{"<"}</button>
-            <button className="border-purpleThird text-purplePrimary flex justify-center items-center border-4 w-16 h-16 text-6xl rounded-2xl disabled:text-gray-100 disabled:border-gray-100" disabled={carrouselIndex >= carrouselData.length - 1} onClick={handleNext}>{">"}</button>
+          <div className="mt-6 flex items-center gap-6 pt-8 border-t-8 rounded-sm">
+            <button className="border-purpleThird text-purplePrimary flex justify-center items-center border-4 w-14 h-14 text-5xl rounded-2xl disabled:text-gray-100 disabled:border-gray-100" disabled={carrouselIndex <= 0} onClick={handlePrevious}>{"<"}</button>
+            <button className="border-purpleThird text-purplePrimary flex justify-center items-center border-4 w-14 h-14 text-5xl rounded-2xl disabled:text-gray-100 disabled:border-gray-100" disabled={carrouselIndex >= carrouselData.length - 1} onClick={handleNext}>{">"}</button>
           </div>
         </div>
       </div>
 
-      <div className='flex flex-col justify-center pl-32 mt-20'>
+      <div className='flex flex-col pl-32 mt-14'>
         <p>Telas</p>
         <h1 className='text-5xl pt-8 w-96 leading-normal font-bold text-purplePrimary'>{carrouselData[carrouselIndex].title}</h1>
         <p className='w-96 font-medium leading-snug pt-3'>{carrouselData[carrouselIndex].description}</p>
