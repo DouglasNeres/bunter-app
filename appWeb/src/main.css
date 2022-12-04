@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1E1E1E;
   font-family: 'Poppins', sans-serif;
@@ -21,11 +25,10 @@ body {
 }
 
 .center {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 88vh;
+  height: 110vh;
 }
 
 .lightBg {
@@ -39,14 +42,15 @@ body {
 
 .circle {
   position: absolute;
-  width: 700px;
+  width: 750px;
   height: 720px;
   left: -320px;
-  top: 1050px;
+  top: 1250px;
+  border-radius: 50%;
   z-index: -1;
-  border-radius: 100%;
+  opacity: 0.4;
   background: rgb(88, 21, 141);
-  background: linear-gradient(90deg, rgba(119, 67, 219, 1), 44%, rgba(88, 21, 141, 1) 0%, rgba(148, 12, 213, 1) 100%);
+  background: linear-gradient(90deg, rgba(88, 21, 141, 1) 0%, rgba(148, 12, 213, 1) 100%);
 }
 
 .circleBlur {
@@ -63,15 +67,15 @@ body {
 
 .imgCard {
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
-  width: 370px;
-  height: 500px;
+  width: 320px;
+  height: 430px;
   border-radius: 8px;
 }
 
 .textsBg{
   position: absolute;
   height: 115px;
-  width: 370px;
+  width: 320px;
 }
 
 .content {
@@ -87,3 +91,14 @@ body {
   transition: 2s;
 }
 
+.gradientFinal{
+  position: absolute;
+  z-index: -1;
+
+  width: 0;
+  height: 0;
+  border-left:100px solid transparent;
+  border-right: 800px solid transparent;
+  border-bottom: 450px solid  #682f8d;
+  transform: rotate(0deg);
+}

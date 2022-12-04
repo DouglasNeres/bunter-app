@@ -2,7 +2,7 @@ import { About, FooterContent, Form } from "../components";
 
 export function Footer() {
   return (
-    <div className='flex justify-center items-center gap-20 mt-20 h-96'>
+    <div id="footer" className='flex justify-center items-center gap-20 py-52'>
       <About />
       <FooterContent />
       <Form />

@@ -3,7 +3,7 @@ import AppStoreBadge from '../assets/app-store-bagde.svg'
 
 export function Launch() {
   return (
-    <div className='mt-44'>
+    <div id='launch' className='pt-44'>
     <div className="bg-purpleFifth rounded-lg shadow-md shadow-purplePrimary w-5/6 h-80 flex items-center m-auto">
       <aside className="m-auto">
         <h1 className="break-words text-5xl font-medium leading-normal">Em produção para o <p>Grande Lançamento!</p></h1>

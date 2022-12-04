@@ -1,5 +1,5 @@
 export * from './NavBar'
-export * from './Frames'
+export * from './Funds'
 export * from './Poligonos'
 export * from './Main'
 export * from './Blocks'
