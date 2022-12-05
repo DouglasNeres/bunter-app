@@ -6,7 +6,7 @@ export function Introduction() {
       <h1 className='font-semibold text-5xl break-words leading-tight'>Muito mais que um <strong className='text-purpleSecond'>projeto</strong>,
         <p> a Iniciativa de <strong className='text-purpleSecond'>Mudança!</strong></p></h1>
 
-      <div className='flex justify-around pt-12'>
+      <div className='flex justify-around pt-10'>
         <p className='text-left w-2/6'>Projetar o futuro não é simples, porém jamais será
           impossível, cada investimento e esforço no que
           vale a pena, sempre será bem recompensado.</p>
