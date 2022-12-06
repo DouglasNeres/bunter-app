@@ -8,7 +8,7 @@ export function NavBar() {
   const { isVisible, setIsVisible } = useNavMobileContext()
 
   return (
-    <nav className=' w-full fixed flex items-center justify-between bg-zinc-800 bg-opacity-50 shadow-lg px-14 z-50'>
+    <nav className='w-full fixed flex items-center justify-between bg-zinc-800 bg-opacity-50 shadow-lg px-14 z-50'>
       <LogoNav />
       <ul className=' hidden lg:flex gap-6'>
         <li className='cursor-pointer hover:text-slate-300 transition-all'><a href="#intro">Introdução</a></li>
