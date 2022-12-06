@@ -13,16 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-.gradient {
-  position: absolute;
-  width: 1860.38px;
-  height: 2773.81px;
-  left: 1300px;
-  top: -999.93px;
-  z-index: -1;
-  background-image: linear-gradient(to right top, #46244c, #59296b, #682f8d, #7338b2, #7743db);
-  transform: rotate(-41deg);
-}
+
 
 .center {
   display: flex;
@@ -53,17 +44,6 @@ body {
   background: linear-gradient(90deg, rgba(88, 21, 141, 1) 0%, rgba(148, 12, 213, 1) 100%);
 }
 
-.circleBlur {
-  position: absolute;
-  width: 836px;
-  height: 822px;
-  left: 1101px;
-  top: 1742px;
-  border-radius: 50%;
-  background: rgba(217, 217, 217, 0.15);
-  filter: blur(75px);
-  z-index: -1;
-}
 
 .imgCard {
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
