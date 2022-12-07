@@ -12,11 +12,11 @@ export function Faqs() {
     },
     {
       question: 'Por que Usar?',
-      answer: 'Quando pensamos em várias compras em um só lugar, temos a idéia de um centro de compras, com isso vindo do inglês BUY CENTER, veio a idéia da junção BUNTER.'
+      answer: 'No dia a dia nos deparamos com muitos afazeres, com isso nem sempre da tempo ou estamos dispostos a sair ainda para comprar algum produto que precisamos, ou derrepente se você é aquela pessoa que não gosta muito de sair e de lidar com atrasos no trânsito e etc, o Bunter pode simplesmente resolver de forma local e online bastando pedir ou buscar pelo produto desejado e assim recebendo de forma rápida e segura.'
     },
     {
       question: 'Como Funciona?',
-      answer: 'Quando pensamos em várias compras em um só lugar, temos a idéia de um centro de compras, com isso vindo do inglês BUY CENTER, veio a idéia da junção BUNTER.'
+      answer: 'Funcionará permitindo com que usuários de sua região tenha acesso a seus comércios ampliando, e aprimorando a forma na qual a tecnologia e o mercado trabalham.'
     },
 
   ]
@@ -35,7 +35,7 @@ export function Faqs() {
     <div id="faqs" className="flex pt-40">
       <aside className="pl-44 flex flex-col gap-10">
         <h1 className="break-words font-semibold text-5xl leading-normal">Perguntas <p className="text-purplePrimary">mais Frequentes</p></h1>
-        <p className="break-words">Sabemos que você pode ter algumas dúvidas, <p>então consulte ao lado para tirar algumas.</p></p>
+        <p className="break-words">Sabemos que você pode ter algumas dúvidas, <p>então consulte ao lado para tirar-lás.</p></p>
         <img className="h-36" src={Points} alt="" />
       </aside>
 

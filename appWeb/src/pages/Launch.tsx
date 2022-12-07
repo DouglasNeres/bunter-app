@@ -9,7 +9,7 @@ export function Launch() {
         <h1 className="break-words text-5xl font-medium leading-normal">Em produção para o <p>Grande Lançamento!</p></h1>
       </aside>
       <article className='m-auto'>
-        <p className='text-center text-xl pb-7'>Encontrado para uso completo em:</p>
+        <p className='text-center text-xl pb-7'>Em breve nas Lojas de Aplicativo:</p>
         <div className='flex h-16 gap-4'>
           <img src={GooglePlayBadge} alt="Badge da Google Play" />
           <img src={AppStoreBadge} alt="Badge da App Store" />

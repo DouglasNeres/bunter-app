@@ -65,17 +65,27 @@ body {
   z-index: -1;
 }
 
-.imgCard {
+.bgCard {
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
-  width: 320px;
+  width: 310px;
   height: 430px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.bgCard img {
+  position: relative;
+  height: 350px;
+  width: 310px;
+  bottom: 90px;
   border-radius: 8px;
 }
 
 .textsBg {
   position: absolute;
-  height: 115px;
-  width: 320px;
+  width: 310px;
+  height: 90px;
+  
 }
 
 .content {
@@ -131,25 +141,35 @@ body {
     align-items: center;
   }
 
-  .contentMain img{
+  .contentMain img {
     position: absolute;
     top: 120px;
     left: 50px;
-    height: 500px;    
+    height: 500px;
   }
 
-  .contentMain h1, .contentMain p{
+  .contentMain h1,
+  .contentMain p {
     text-align: left;
   }
- 
+
   #intro {
     margin-top: 20rem;
   }
 
-  #Poligonosos{
+  #Poligonosos {
     position: absolute;
     top: 250px;
     left: 700px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  #footer {
+    position: absolute;
+    left: 200px;
   }
 
 }
