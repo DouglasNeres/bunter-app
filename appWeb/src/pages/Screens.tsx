@@ -36,13 +36,13 @@ export function Screens() {
     {
       image: Tela3,
       title: 'Exibição Tela de Buscar',
-      description: 'Um conjunto de Categorias, levando a produtos distibuídos na respectiva aba escolhida pelo usuário, assim facilitando a busca por encontrar produtos de acordo seu desejo.',
+      description: 'Um conjunto de Categorias, dividindo os produtos distibuídos nas respectivas abas escolhidas pelo usuário, assim facilitando a busca por encontrar produtos de acordo seu desejo.',
       linkTitle: 'Veja mais'
     },
     {
       image: Tela4,
       title: 'Exibição Tela Notificações',
-      description: 'Uma tela dedicada para melhor comunicação entre cliente e vendedor, permitindo com que o vendedor notifique seus clientes, criando uma melhor interação facilmente.',
+      description: 'Uma tela dedicada para melhor comunicação entre cliente e vendedor, permitindo com que o vendedor notifique seus clientes, criando facilmente uma melhor interação.',
       linkTitle: 'Veja mais'
     },
     {
@@ -60,13 +60,13 @@ export function Screens() {
     {
       image: Tela7,
       title: 'Exibição Tela Cadastro',
-      description: 'Tela destinada a divisão de 3 classes como: Configurações Pessoais, Preferências, Sobre nós e Entrar em Contato. Tendo assim cada campo uma forma mais objetiva de uso.',
+      description: 'Interface de cadastro junto ao login, possibilitando cada usuário entrar com o uso de seus dados e suas contas que desejar.',
       linkTitle: 'Veja mais'
     },
     {
       image: Tela8,
       title: 'Exibição Tela Login',
-      description: 'Tela destinada a divisão de 3 classes como: Configurações Pessoais, Preferências, Sobre nós e Entrar em Contato. Tendo assim cada campo uma forma mais objetiva de uso.',
+      description: 'Interface de cadastro junto ao login, possibilitando cada usuário entrar com o uso de seus dados e suas contas que desejar.',
       linkTitle: 'Veja mais'
     },
   ];

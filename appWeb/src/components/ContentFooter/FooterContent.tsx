@@ -1,6 +1,6 @@
 export function FooterContent() {
   return (
-    <div className='flex gap-20 '>
+    <div className='footer flex gap-20 '>
       <div className="flex flex-col gap-2">
         <strong className="text-3xl mb-5">Tecnologias</strong>
         <p className="text-xl" >Figma</p>

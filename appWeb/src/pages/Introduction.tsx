@@ -8,11 +8,10 @@ export function Introduction() {
 
       <div className='flex justify-around pt-10'>
         <p className='text-left w-2/6'>Projetar o futuro não é simples, porém jamais será
-          impossível, cada investimento e esforço no que
-          vale a pena, sempre será bem recompensado.</p>
+          impossível, cada investimento e esforço no seu objetivo, sempre será bem recompensado.</p>
 
-        <p className='text-left break-words'>Assim desenvolvendo tamanha aplicação em <p>prol
-          do avançar.</p>
+        <p className='text-left break-words'>Assim desenvolvendo tamanha aplicação em <p>busca
+          do avanço.</p>
         </p>
       </div>
 

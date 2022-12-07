@@ -23,8 +23,8 @@ export function PartsBlocks(){
           </div>
           <p className='break-words text-center pt-4 text-xl'>Comunicação cliente -
             <p>vendedor mais direta,</p>
-            <p>dificultando mal</p>
-            entendidos.</p>
+            <p>facilitando a</p>
+            interação.</p>
         </div>
 
         <div className='flex flex-col px-10'>
