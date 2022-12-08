@@ -122,6 +122,10 @@ body {
     display: none;
   }
 
+  .circle {
+    display: none;
+  }
+
   .lightBg {
     position: absolute;
     bottom: 0;
@@ -155,12 +159,33 @@ body {
 
   #intro {
     margin-top: 20rem;
+    position: absolute;
+    margin-bottom: 300px;
   }
 
   #Poligonosos {
     position: absolute;
     top: 250px;
     left: 700px;
+  }
+
+#screens{
+    margin-top: 80rem;
+    position: absolute;
+  }
+  /* 
+  #blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+  } */
+
+  #meetus, #launch{
+    margin-top: 80rem;
+    position: absolute;
   }
 
   .footer {
